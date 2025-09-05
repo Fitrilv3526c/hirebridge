@@ -32,7 +32,7 @@ export default function RootLayout({
     <html lang='en'>
       <body className={`${inter.variable} ${poppins.variable} antialiased`}>
         <Navbar />
-        {children}
+        <div className='!mt-20'>{children}</div>
         <Footer />
       </body>
     </html>
